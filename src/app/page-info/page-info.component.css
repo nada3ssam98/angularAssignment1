@@ -1,11 +1,11 @@
 *{
     color: white;
 }
-div.info {
+.layout {
     background-color: #2C3E50;
 }
 .info div {
-    height: 130px;
+    min-height: 130px;
 }
 .icon{
     padding: 8px;
