@@ -1,0 +1,31 @@
+#about {
+    background-color: #1ABC9C;
+    min-height: 80vh;
+ }
+#about .line{
+    width: 250px;
+    position: relative;
+ }
+
+ #about .line::before{
+    content: '';
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: translateY(-8px);
+}
+
+#about .line::after{
+    content: '';
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    background-color: white;
+    transform: translateY(-8px);
+
+}

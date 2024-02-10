@@ -1,0 +1,23 @@
+*{
+    color: white;
+}
+div.info {
+    background-color: #2C3E50;
+}
+.info div {
+    height: 130px;
+}
+.icon{
+    padding: 8px;
+    margin: 5px;
+    border : 1px solid white ;
+    border-radius: 50%;
+}
+p.rights {
+    background-color: #162028;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 0;
+    font-size: 20px;
+}

@@ -1,0 +1,37 @@
+.line .icon{
+    color: #2C3E50!important;
+ }
+#contact .line{
+    width: 250px;
+    position: relative;
+    color: #2C3E50;
+ }
+
+ #contact .line::before{
+    content: '';
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #2C3E50;
+    transform: translateY(-8px);
+}
+
+#contact .line::after{
+    content: '';
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    background-color:#2C3E50;
+    transform: translateY(-8px);
+}
+
+input{
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #DEE2E6;
+    outline: 0;
+}

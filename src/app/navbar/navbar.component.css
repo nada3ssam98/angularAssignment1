@@ -1,0 +1,17 @@
+nav {
+    background-color: #2C3E50 !important;
+    font-weight: bold;
+}
+
+nav a{
+    color: white !important;
+    font-size: 18px;
+    padding-inline: 15px !important;
+}
+
+.link-active{
+    color: black;
+    background-color:#1ABC9C;
+    transition: 0.8s background-color;
+    border-radius:10px;
+}

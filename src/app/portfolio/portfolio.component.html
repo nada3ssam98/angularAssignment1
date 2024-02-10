@@ -1,0 +1,58 @@
+<div id="portfolio" class="d-flex justify-content-center align-items-center flex-column py-5 mt-5">
+    <h1>PORTFOLIO COMPONENT</h1>
+    <div class="line d-flex justify-content-center align-items-center">
+        <i class="icon fa-solid fa-star fs-4 text-white"></i>
+    </div>
+    <div class="slide py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="../../assets/poert1.png" alt="" class="w-100">
+                        <div class="img-layer d-flex justify-content-center align-items-center" (mouseenter)="onHoverCheck=true" (mouseleave)="onHoverCheck=false"
+                        [ngStyle]="{ 
+                            'opacity': onHoverCheck==true ? '0.9' : '0',
+                            
+                          }"
+                        >
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="../../assets/port2.png" alt="" class="w-100">
+                        <div class="img-layer d-flex justify-content-center align-items-center" (mouseenter)="this.onHoverCheck=true" (mouseleave)="onHoverCheck=false"
+                        [ngStyle]="{ 
+                            'opacity': onHoverCheck==true ? '0.9' : '0',
+                            
+                          }"
+                        >
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="../../assets/port3.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="../../assets/poert1.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="../../assets/port2.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image">
+                        <img src="../../assets/port3.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
